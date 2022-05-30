@@ -6,9 +6,9 @@ function App() {
   return (
     <Container>
       <Box sx={{ display: 'flex', flexWrap: 'wrap' }}>
-        <Omikuji />
-        <Omikuji />
-        <Omikuji />
+        <Omikuji>大吉</Omikuji>
+        <Omikuji>中吉</Omikuji>
+        <Omikuji>小吉</Omikuji>
       </Box>
     </Container>
   );
