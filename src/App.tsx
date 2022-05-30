@@ -1,8 +1,15 @@
+import { Card, CardContent, Container } from '@mui/material';
 import React from 'react';
 
 function App() {
   return (
-    <div>まっさらにしました</div>
+    <Container>
+      <Card>
+        <CardContent>
+          大吉
+        </CardContent>
+      </Card>
+    </Container>
   );
 }
 
