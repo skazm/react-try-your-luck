@@ -4,26 +4,28 @@ import React from 'react';
 function App() {
   return (
     <Container>
-      <Box m={1}>
-        <Card>
-          <CardContent>
-            大吉
-          </CardContent>
-        </Card>
-      </Box>
-      <Box m={1}>
-        <Card>
-          <CardContent>
-            大吉
-          </CardContent>
-        </Card>
-      </Box>
-      <Box m={1}>
-        <Card>
-          <CardContent>
-            大吉
-          </CardContent>
-        </Card>
+      <Box sx={{ display: 'flex', flexWrap: 'wrap' }}>
+        <Box m={1} width="300px">
+          <Card>
+            <CardContent>
+              大吉
+            </CardContent>
+          </Card>
+        </Box>
+        <Box m={1} width="300px">
+          <Card>
+            <CardContent>
+              大吉
+            </CardContent>
+          </Card>
+        </Box>
+        <Box m={1} width="300px">
+          <Card>
+            <CardContent>
+              大吉
+            </CardContent>
+          </Card>
+        </Box>
       </Box>
     </Container>
   );
