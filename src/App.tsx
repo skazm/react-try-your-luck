@@ -1,31 +1,14 @@
-import { Box, Card, CardContent, Container } from '@mui/material';
+import { Box, Container } from '@mui/material';
 import React from 'react';
+import Omikuji from './Components/Omikuji';
 
 function App() {
   return (
     <Container>
       <Box sx={{ display: 'flex', flexWrap: 'wrap' }}>
-        <Box m={1} width="300px">
-          <Card>
-            <CardContent>
-              大吉
-            </CardContent>
-          </Card>
-        </Box>
-        <Box m={1} width="300px">
-          <Card>
-            <CardContent>
-              大吉
-            </CardContent>
-          </Card>
-        </Box>
-        <Box m={1} width="300px">
-          <Card>
-            <CardContent>
-              大吉
-            </CardContent>
-          </Card>
-        </Box>
+        <Omikuji />
+        <Omikuji />
+        <Omikuji />
       </Box>
     </Container>
   );
